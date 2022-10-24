@@ -7,7 +7,7 @@
           <div class="cases__case-info">
             <div class="cases__case-company">
               <div class="cases__case-cover">
-                <img src="@/assets/imgs/cases-logo.svg" alt="" class="cases__case-logo">
+                <img src="@/assets/imgs/bell-logo.svg" alt="" class="cases__case-logo">
               </div>
               <div class="cases__case-main">
                 <p class="cases__case-name">LifePay</p>
@@ -31,7 +31,7 @@
 
           </div>
           <div class="cases__case-wrapper">
-            <img src="@/assets/imgs/case.png" alt="case" class="cases__case-img">
+            <img src="@/assets/imgs/laptop.png" alt="case" class="cases__case-img">
           </div>
 <!--        </div>-->
       </li>
@@ -47,9 +47,7 @@ export default {
 
 <style lang="scss" scoped>
 .cases {
-
-  margin-top: 160px;
-
+  margin-bottom: 110px;
 
   &__title {
     display: inline-block;
@@ -147,11 +145,11 @@ export default {
     }
 
     &-name {
-      line-height: 56px;
-      color: #000000;
-      font-size: 2.57em;
+      font-style: normal;
       font-weight: 500;
-      margin-top: 5px;
+      font-size: 59px;
+      line-height: 71px;
+      color: #2D6FAB;
     }
 
     &-text {
@@ -195,10 +193,10 @@ export default {
     }
 
     &-bold {
-      color: #000000;
+      color: #2D6FAB;
       font-size: 1.71em;
       line-height: 37px;
-      font-weight: 400;
+      font-weight: 500;
     }
 
     &-description {

@@ -89,7 +89,7 @@ export default {
 
 
   @media screen and (max-width: 1140px) {
-    background-color: black;
+    background-color: #2D6FAB;
   }
 
   &__logo {
@@ -273,5 +273,4 @@ export default {
     }
   }
 }
-
 </style>

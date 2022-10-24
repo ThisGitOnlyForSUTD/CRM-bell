@@ -5,7 +5,7 @@
       <h4 class="where__title">Работаем с клиентами по всему миру</h4>
       <div class="where__wrapp">
         <div class="where__first">
-          <img class="where__img" src="" alt="first">
+          <img class="where__img" src="@/assets/imgs/indus.jpg" alt="first">
         </div>
         <div class="where__second">
           <p class="where__text">
@@ -13,7 +13,7 @@
           </p>
         </div>
         <div class="where__main">
-          <img class="where__img" src="" alt="first">
+          <img class="where__img" src="@/assets/imgs/ipad.jpg" alt="first">
         </div>
         <div class="where__four">
           <p class="where_text">
@@ -21,7 +21,7 @@
           </p>
         </div>
         <div class="where__five">
-          <img class="where__img" src="" alt="first">
+          <img class="where__img" src="@/assets/imgs/hadns.jpg" alt="first">
         </div>
       </div>
     </div>
@@ -78,15 +78,20 @@ export default {
     width: 100%;
     height: auto;
     display: block;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
   &__first {
     position: absolute;
     width: 368px;
     height: 219px;
-    background: #445c87;
     z-index: 100;
     left: 0%;
     top: 0%;
+
+    @media screen and (max-width: 968px) {
+      display: none;
+    }
   }
   &__main {
     position: absolute;
@@ -95,17 +100,19 @@ export default {
     transform: translate(-50%,-50%);
     width: 573px;
     height: 324px;
-    background: #0072bc;
     z-index: 1;
   }
   &__five {
     position: absolute;
-    width: 292px;
+    width: 290px;
     height: 172px;
-    background: #9abcc4;
     z-index: 100;
     top: 52%;
     left: 60%;
+
+    @media screen and (max-width: 968px) {
+      display: none;
+    }
   }
   &__second {
     position: absolute;
@@ -118,7 +125,13 @@ export default {
     line-height: 20px;
     z-index: 100;
     top: 0%;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     left: 65%;
+
+    @media screen and (max-width: 968px) {
+      left: 0;
+    }
 
   }
   &__four {
@@ -133,6 +146,12 @@ export default {
     z-index: 100;
     top: 47%;
     left: 10%;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    @media screen and (max-width: 968px) {
+      left: 0%;
+    }
   }
 
 

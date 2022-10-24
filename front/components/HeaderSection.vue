@@ -22,7 +22,7 @@
     </div>
     <div class="header__cover">
       <video class="header__viedo" autoplay loop muted preload="auto" playsinline>
-        <source src="@/assets/imgs/header.mp4" type='video/mp4'>
+        <source src="@/assets/imgs/london.mp4" type=''>
       </video>
     </div>
   </header>
@@ -51,7 +51,7 @@ export default {
     position: absolute;
     top: 0;
     left: 0;
-    opacity: 0.2;
+    opacity: 0.4;
     z-index: -1;
   }
 
@@ -98,8 +98,11 @@ export default {
   }
 
   &__info {
-    width: 50%;
-    max-width: 390px;
+    background: radial-gradient(174.83% 400.15% at 50% 50%, rgba(64, 62, 62, 0.61) 0%, rgba(64, 62, 62, 0) 100%);
+    width: 100%;
+    max-width: 519px;
+    padding: 13px 51px 23px 36px;
+    border-radius: 18px;
     margin-top: 120px;
     @media screen and (max-width: 968px) {
       display: flex;
@@ -111,7 +114,6 @@ export default {
   }
 
   &__short, &__text, &__btn{
-    max-width: 390px;
     @media screen and (max-width: 968px) {
 
       text-align: center;
@@ -121,22 +123,24 @@ export default {
   }
 
   &__short {
-    font-size: 37px;
-    color: #939393;
     font-weight: 500;
+    font-size: 47px;
+    color: #CFCFCF;
+    line-height: 57px;
   }
   &__decorate {
-    font-size: 40px;
-    font-weight: 600;
-    color: black;
+    font-weight: 500;
+    font-size: 47px;
+    color: #2D6FAB;
     text-transform: uppercase;
   }
 
   &__text {
     margin-top: 20px;
-    font-size: 1.28em;
-    line-height: 27px;
-    color: #696969;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #CFCFCF;
     @media screen and (max-width: 968px) {
       margin-top: 40px;
     }

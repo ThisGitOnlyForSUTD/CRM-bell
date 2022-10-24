@@ -85,6 +85,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 .profit {
+  margin-top: 150px;
 
   &__title {
     display: inline-block;
@@ -138,7 +139,7 @@ export default {
 
 
     &:hover {
-      background-color: #000000;
+      background-color: #2D6FAB;
       box-shadow: 0px 0px 0px 0px rgba(34, 60, 80, 0.2);
 
       .profit__item-short {
@@ -146,15 +147,15 @@ export default {
       }
 
       .profit__item-svg {
-        fill: #ffc50c;
+        fill: white;
       }
 
       .profit__item-know {
-        color: #ffc50c;
+        color: white;
       }
 
       .profit__item-arrow {
-        fill: #ffc50c;
+        fill: white;
       }
     }
 

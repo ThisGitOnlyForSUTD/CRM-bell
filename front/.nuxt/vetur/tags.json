@@ -1,0 +1,35 @@
+{
+  "AppFooter": {
+    "description": "Auto imported from components/AppFooter.vue"
+  },
+  "AppNavbar": {
+    "description": "Auto imported from components/AppNavbar.vue"
+  },
+  "CasesSection": {
+    "description": "Auto imported from components/CasesSection.vue"
+  },
+  "HeaderSection": {
+    "description": "Auto imported from components/HeaderSection.vue"
+  },
+  "PartnersSection": {
+    "description": "Auto imported from components/PartnersSection.vue"
+  },
+  "ProfitSection": {
+    "description": "Auto imported from components/ProfitSection.vue"
+  },
+  "SliderSection": {
+    "description": "Auto imported from components/SliderSection.vue"
+  },
+  "WhereSection": {
+    "description": "Auto imported from components/WhereSection.vue"
+  },
+  "UiAppButton": {
+    "description": "Auto imported from components/ui/AppButton.vue"
+  },
+  "UiAppLoader": {
+    "description": "Auto imported from components/ui/AppLoader.vue"
+  },
+  "UiAppPopup": {
+    "description": "Auto imported from components/ui/AppPopup.vue"
+  }
+}

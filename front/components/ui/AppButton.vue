@@ -27,7 +27,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 .button {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.379);
   border: none;
   color: white;
   padding: 15px 30px 18px 30px;
@@ -37,7 +37,7 @@ export default {
   cursor: pointer;
   width: 100%;
   &:hover {
-    background-color: #222828;
+    background-color: #2D6FAB;
   }
   &__clip-path {
     clip-path: polygon(85% 0, 100% 40%, 100% 100%, 75% 100%, 15% 100%, 0 60%, 0 0);

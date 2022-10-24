@@ -1,0 +1,30 @@
+[
+  {
+    "name": "index___ru___en",
+    "path": "/ru",
+    "component": "/Users/danilagalitskiy/Desktop/crm-bell/front/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_94f56334"
+  },
+  {
+    "name": "index___en___ru",
+    "path": "/ru",
+    "component": "/Users/danilagalitskiy/Desktop/crm-bell/front/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_94f56334"
+  },
+  {
+    "name": "index___ru___ru",
+    "path": "/ru/ru",
+    "component": "/Users/danilagalitskiy/Desktop/crm-bell/front/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_94f56334"
+  },
+  {
+    "name": "index___en___en",
+    "path": "/",
+    "component": "/Users/danilagalitskiy/Desktop/crm-bell/front/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_94f56334"
+  }
+]

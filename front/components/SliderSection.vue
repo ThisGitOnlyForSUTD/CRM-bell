@@ -1,5 +1,11 @@
 <template>
-  <section class="slider">
+  <section class="slider container">
+    <div class="slider__text">
+      Уникальный и мощный набор программного 
+      обеспечения для управления всем вашим бизнесом,
+      предоставленный вам компанией с долгосрочным видением 
+      изменения способа вашей работы.
+    </div>
     <div class="slider__content container">
       <div class="slider__wrapper">
         <div class="carousel-wrapper">
@@ -11,7 +17,6 @@
                 <p class="slide__text">{{i.text}}</p>
               </div>
             </div>
-            <div class="swiper-pagination swiper-pagination-bullets"></div>
           </div>
           <div class="swiper-button-prev" slot="button-prev"></div>
           <div class="swiper-button-next" slot="button-next"></div>
@@ -135,30 +140,44 @@ export default {
   }
 }
 </script>
-<style lang="scss">
-.swiper-pagination-bullet {
-  width: 18px;
-  height: 18px;
-  border: 1px solid #0072bc;
-  background: transparent;
-}
-.swiper-pagination-bullet-active {
-  background-color: #0072bc;
-}
-
-</style>
 <style lang="scss" scoped>
 .slider {
   width: 100%;
   height: 745px;
   padding: 160px 0 90px;
+  display: flex;
+
+  @media screen and (max-width: 968px) {
+    display: block;
+    padding-top: 0;
+    }
+
+  &__text {
+    margin-top: 70px;
+    margin-right: 100px;
+    padding-left: 20px;
+    font-style: normal;
+    max-width: 500px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+    border-left: 3px solid #2D6FAB;
+    height: 170px;
+
+    @media screen and (max-width: 968px) {
+      margin-left: 50px;
+      font-size: 17px;
+      line-height: 19px;
+      margin-bottom: 80px;
+    }
+  }
 
   @media screen and (max-width: 968px) {
     height: auto;
   }
   &__content {
     display: flex;
-    justify-content: end;
+    justify-content: center;
 
     @media screen and (max-width: 968px) {
       justify-content: center;
@@ -167,7 +186,7 @@ export default {
   &__wrapper {
     max-width: 525px;
     height: 400px;
-    background-image: url("@/assets/imgs/second_slider_bg.jpg");
+    background: radial-gradient(277.2% 812.32% at 20.91% 25.41%, #2D6FAB 0%, rgba(64, 62, 62, 0) 100%);
     border-radius: 10px;
     opacity: 0.9;
     margin-right: 120px;
@@ -185,11 +204,11 @@ export default {
 }
 
 .swiper-button-next {
-  width: 90px;
-  height: 90px;
+  width: 50px;
+  height: 50px;
   background-image: url("@/assets/imgs/arrow_ico.png");
   background-size: cover;
-  transform: translate(120px, -50%);
+  transform: translate(70px, -50%);
   z-index: 1000;
   overflow: auto !important;
   top: 50%;
@@ -204,11 +223,11 @@ export default {
 
 }
 .swiper-button-prev {
-  width: 90px;
-  height: 90px;
+  width: 50px;
+  height: 50px;
   background-image: url("@/assets/imgs/arrow_ico.png");
   background-size: cover;
-  transform: translate(-120px, -50%) rotate(180deg);
+  transform: translate(-70px, -50%) rotate(180deg);
   top: 50%;
   opacity: 0.3;
   transition: opacity 0.3s ease-in-out;
@@ -229,14 +248,6 @@ export default {
 .carousel-wrapper {
   position: relative;
   height: 100%;
-}
-
-.swiper-pagination {
-  top: 85%;
-  width: 80%;
-  left: 50%;
-  transform: translate(-50%);
-  text-align: left;
 }
 
 .swiper-container {
